@@ -16,6 +16,9 @@ ventana = tk.Tk()
 ventana.title("Calculadora de Raíz Cuadrada")
 ventana.geometry("300x150")  # Establecer un tamaño inicial más grande a la ventana
 
+# Establecer tamaño medio de la ventana
+ventana.geometry("300x150")
+
 # Etiqueta y entrada para ingresar el número
 tk.Label(ventana, text="Ingresa un número:").pack()
 entrada_numero = tk.Entry(ventana)
