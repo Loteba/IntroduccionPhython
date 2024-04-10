@@ -15,6 +15,9 @@ def calcular_raiz():
 ventana = tk.Tk()
 ventana.title("Calculadora de Raíz Cuadrada")
 
+# Establecer tamaño medio de la ventana
+ventana.geometry("300x150")
+
 # Etiqueta y entrada para ingresar el número
 tk.Label(ventana, text="Ingresa un número:").pack()
 entrada_numero = tk.Entry(ventana)
